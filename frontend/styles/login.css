@@ -1,0 +1,41 @@
+.login-container{
+  margin-top: 20px;
+  color: black;
+  height: 80vh;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.login{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-container div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input{
+  border: none;
+  outline: none;
+  margin-top: 2px;
+  padding: 5px 6px;
+  border-radius: 5px;
+}
+
+label{
+  font-size: 14px;
+}
+
+.submit{
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 7px;
+  cursor: pointer;
+}
